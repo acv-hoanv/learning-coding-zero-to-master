@@ -1,1 +1,46 @@
-# learning-coding-zero-to-master
+# React Navtive
+
+# 0.60.1
+- Add Hermes JavaScript Engine  ( https://facebook.github.io/react-native/docs/hermes )
++ Only support in Android
+# 0.60.2
+-Add Hermess in Android
+in android/app/build.gradle add :
+
+project.ext.react = [
+entryFile: "index.js",
+-     enableHermes: false  // clean and rebuild if changing
++     enableHermes: true  // clean and rebuild if changing
+]
+
+Next, if you've already built your app at least once, clean the build:
+cd android && ./gradlew clean
+That's it! You should now be able to develop and deploy your app as normal:
+$ react-native run-android
+
+A HermesInternal global variable will be available in JavaScript that can be used to verify that Hermes is in use:
+const isHermes = () => global.HermesInternal != null;
+
+To see the benefits of Hermes, try making a release build/deployment of your app to compare. For example:
+$ react-native run-android --variant release
+
+Debugging Hermes using Google Chrome's DevTools:
+switch to localhost:8081
+
+# 0.60.3
+
+This is a patch release that fixes the binary path to Hermes package, thanks to @zoontek for creating the PR!
+
+You can participate to the conversation for the next patch release in the dedicated issue.
+
+# 0.60.4
+
+This is a patch release that contains two more Hermes related fixes, thanks to the contributors for helping improving the support!
+
+Generate correct source map if hermes not enabled (b1f81be by @HazAT)
+Generate source maps outside of assets/ (60e75dc by @motiz88)
+You can participate to the conversation for the next patch release in the dedicated issue.
+
+
+# Note Hermess
+- Just support  with build file apk and not support buill bundle file (.abb) 
