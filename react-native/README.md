@@ -46,3 +46,14 @@ You can participate to the conversation for the next patch release in the dedica
 # Note Hermess
 - Just support  with build file apk and not support buill bundle file (.abb) 
 
+
+
+# AndroidX
+-Để convert code tự động khi sử dụng thư viên thứ 3 sử dụng jetifier:
+https://github.com/mikehardy/jetifier
+
+- Trên android nếu sử dụng enableJetifier = true thì sẽ chỉ có tác dụng với native code không có tác dụng với thư viênj thứ
+3 trên react native
+
+
+
