@@ -1,10 +1,10 @@
 
 # React Navtive
-
+# Hermes
 # 0.60.1
 - Add Hermes JavaScript Engine  ( https://facebook.github.io/react-native/docs/hermes )
 + Only support in Android
-# 0.60.2
+#  0.60.2
 -Add Hermess in Android
 in android/app/build.gradle add :
 
