@@ -1,6 +1,6 @@
 
 # React Navtive
-# React Native Release Log https://github.com/react-native-community/releases
+# React Native Release Log https://github.com/react-native-community/releases/blob/master/CHANGELOG.md
 # Hermes
 # 0.60.1
 - Add Hermes JavaScript Engine  ( https://facebook.github.io/react-native/docs/hermes )
