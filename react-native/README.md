@@ -56,5 +56,6 @@ https://github.com/mikehardy/jetifier
 - Trên android nếu sử dụng enableJetifier = true thì sẽ chỉ có tác dụng với native code không có tác dụng với thư viênj thứ
 3 trên react native
 
-
+# React Native Firebase FCM
+- Link config example https://medium.com/@katharinep/firebase-notification-integration-in-react-native-0-60-3a8d6c8d56ff
 
