@@ -59,3 +59,8 @@ https://github.com/mikehardy/jetifier
 # React Native Firebase FCM
 - Link config example https://medium.com/@katharinep/firebase-notification-integration-in-react-native-0-60-3a8d6c8d56ff
 
+# Rename  Unsafe Lifecycles https://reactjs.org/blog/2019/08/08/react-v16.9.0.html
+cd your_project
+npx react-codemod rename-unsafe-lifecycles
+
+- Khi chạy lệnh npx react-codemod rename-unsafe-lifecycles tất cả các lifecycles (componentWillMount, componentWillReceiveProps) sẽ tự thay thế bằng tên (UNSAFE_componentWillMount,UNSAFE_componentWillReceiveProps)
