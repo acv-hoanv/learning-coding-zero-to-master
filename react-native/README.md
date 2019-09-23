@@ -64,3 +64,8 @@ cd your_project
 npx react-codemod rename-unsafe-lifecycles
 
 - Khi chạy lệnh npx react-codemod rename-unsafe-lifecycles tất cả các lifecycles (componentWillMount, componentWillReceiveProps) sẽ tự thay thế bằng tên (UNSAFE_componentWillMount,UNSAFE_componentWillReceiveProps)
+
+#React Hooks https://reactjs.org/docs/hooks-overview.html
+npm install eslint-plugin-react-hooks --save-dev
+eslint-plugin-react-hooks giúp chúng ta có thể tuân thủ quy tắc của Hook 
+
