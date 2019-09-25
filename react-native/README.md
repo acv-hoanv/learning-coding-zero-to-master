@@ -69,3 +69,9 @@ npx react-codemod rename-unsafe-lifecycles
 npm install eslint-plugin-react-hooks --save-dev
 eslint-plugin-react-hooks giúp chúng ta có thể tuân thủ quy tắc của Hook 
 
+# HOOK
+- Quy tắc khi sử dụng Hook:
++ Chỉ được sử dụng ở cấp cao nhất. Không được sử dụng Hook trong vòng lặp, điều kiện hoặc bên trong một hàm lồng nhau.
+
++
+
