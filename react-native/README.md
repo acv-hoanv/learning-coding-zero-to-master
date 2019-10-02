@@ -75,3 +75,6 @@ eslint-plugin-react-hooks giúp chúng ta có thể tuân thủ quy tắc của 
 
 + rules Hook exhaustive-deps  https://github.com/facebook/react/issues/14920
 
+# Bắt và kiểm soát lỗi React-Native Error Boundaries
+https://reactjs.org/docs/error-boundaries.html
+
