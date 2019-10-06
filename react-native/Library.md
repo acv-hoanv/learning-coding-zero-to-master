@@ -21,3 +21,5 @@
 - https://github.com/oblador/react-native-keychain (dùng cho ios)
 - https://github.com/mCodex/react-native-sensitive-info (dùng cho android)
   
+# 21 thư viện hay để xử lý trong react native
+https://techtalk.vn/21-thu-vien-tuyet-voi-danh-cho-du-an-react-native-cua-ban.html
