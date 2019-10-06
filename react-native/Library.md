@@ -17,4 +17,7 @@
 - link sử dụng thư viện
   https://github.com/DylanVann/react-native-fast-image
 
+# Mã Hoá dự liệu khi lưu ở local 
+- https://github.com/oblador/react-native-keychain (dùng cho ios)
+- https://github.com/mCodex/react-native-sensitive-info (dùng cho android)
   
